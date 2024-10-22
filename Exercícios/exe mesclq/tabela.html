@@ -3,17 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mescla Tabelas</title>
+    <title>Mesclagem Tabelas</title>
+    <style>
+        body{
+            font-family:  'Courier New', monospace;
+        }
+        table{
+            border-collapse: collapse;
+            width: 300px;
+        }
+        td{
+            border: 5px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>Mesclagem de tabela</h1>
+    <h1>Mesclagem de Tabela</h1>
     <table>
         <tr>
-            <td>
-                
-            </td>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td colspan="2">J K  L</td>  <!-- Mescla B e C -->
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr> 
+        <tr>
+           
         </tr>
     </table>
-    
 </body>
 </html>

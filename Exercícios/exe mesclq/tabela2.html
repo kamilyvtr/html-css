@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 0.1</title>
+    <style>
+    body {
+            font-family: Arial, sans-serif;
+    }
+    table {
+         width: 100%;
+        height: 300px;
+            
+    }
+    td {
+         border: 1px solid black;
+        text-align: center;
+        vertical-align: middle;
+        width: 33%;  
+        height: 50px; 
+        }
+        td.rowspan {
+            width: 30%;
+        }
+        tr.colspan {
+            width: 100%;
+        }
+    </style> 
+</head>
+<body> 
+    <h1>Tabelas - colspan e rowspan</h1>
+    <table>
+        <tr>
+            <td rowspan="4">1</td>
+            <td colspan="2">2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td colspan="3">9</td>
+        </tr>
+    </table>
+</body>
+</html>
+<!--Colspan
+Mescla células na horizontal, fazendo com que uma célula ocupe o lugar das próximas. 
+Rowspan
+Mescla células na vertical, fazendo com que uma célula ocupe o lugar das próximas células abaixo de sua linha. -->
+ 

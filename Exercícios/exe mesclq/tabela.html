@@ -23,22 +23,24 @@
     <h1>Mesclagem de Tabela</h1>
     <table>
         <tr>
-            <td>A</td>
-            <td>B</td>
-            <td>C</td>
-        </tr>
-        <tr>
-            <td colspan="2">J K  L</td>  <!-- Mescla B e C -->
-            <td>F</td>
-        </tr>
-        <tr>
-            <td>G</td>
-            <td>H</td>
-            <td>I</td>
-        </tr> 
-        <tr>
-           
-        </tr>
-    </table>
+            <table bord="1">
+                <tr>
+                    <td rowspan="2">A</td>         <!-- Célula A ocupa duas linhas -->
+                    <td colspan="2">B e C</td>     <!-- B e C mescladas em uma célula -->
+                </tr>
+                <tr>
+                    <td>D</td>                     <!-- celula D -->
+                    <td>E</td>                     <!-- Célula E -->
+                </tr>
+                <tr>
+                    <td>F</td>                     <!-- celula F -->
+                    <td>G</td>                     <!-- celula G -->
+                    <td>H</td>                     <!-- célula H -->
+                    <td>H</td>                 
+                </tr>
+            </table>                    <!--rowspan para mesclar linhas (ex.: uma célula ocupando mais de uma linha).
+            Use colspan para mesclar colunas (ex.: uma célula ocupando mais de uma coluna)-->
+            
+       
 </body>
 </html>

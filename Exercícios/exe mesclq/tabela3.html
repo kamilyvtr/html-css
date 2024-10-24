@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 0.2</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif;
+        }
+        table { 
+            color: rgb(58, 58, 58);
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th { 
+            font-size: 1.5em;
+        } 
+        th {
+    background-color: lightblue;} 
+    .color1 { background-color: lightgreen; }
+        .color2 { background-color: lightcoral; }
+        .color3 { background-color: rgb(250, 250, 15); }
+        .color4 { background-color: rgb(231, 58, 84); }
+        .color5 { background-color: rgb(238, 205, 205); }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="4">Header</th>
+        </tr>
+        <tr>
+            <td rowspan="4" class="color1">Span Rows</td>
+            <td colspan="3" class="color2">Span Columns</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="color3">Span Columns</td>
+            <td rowspan="3" class="color4">Span Both</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="color5">Span Rows</td>
+            <td class="color2">Span Columns</td>
+        </tr>
+        <tr>
+            <td class="color3">Span Both</td>
+        </tr>
+    </table>
+</body>
+</html>

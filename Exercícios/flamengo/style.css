@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #c8102e;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+}
+
+.logo-container {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.logo {
+    width: 80px;
+}
+
+h1 {
+    color: #ffcc00;
+    font-size: 2.5em;
+    margin-top: 10px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.intro {
+    padding: 20px;
+    text-align: center;
+}
+
+.jogadores {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.jogador {
+    background-color: #1c1c1c;
+    padding: 15px;
+    border-radius: 8px;
+    width: 28%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.jogador img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.jogador h4 {
+    color: #ffcc00;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+} 
+.titulos {
+    padding: 20px;
+    background-color: #1c1c1c;
+    text-align: center;
+}
+
+.titulos h3 {
+    color: #ffcc00;
+}
+
+.titulos ul {
+    list-style: none;
+    font-size: 1.2em;
+}
+
+.titulos li {
+    padding: 5px;
+}
+
+.galeria {
+    padding: 20px;
+    text-align: center;
+}
+
+.galeria h3 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.fotos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fotos img {
+    width: 30%;
+    border-radius: 5px;
+}
+

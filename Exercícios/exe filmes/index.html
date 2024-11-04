@@ -4,38 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filmes Favoritos</title>  
-    <link rel="icon" href="favicon_io (3)/android-chrome-192x192.png" type="image/x-icon">
-    <style>
-table { border-collapse: collapse; 
-    width: 100%; 
-    font-family: Arial, sans-serif; 
-    background: linear-gradient(to right, #f9f9f9, #e0e0e0);   
+    <link rel="icon" href="favicon_io (3)/android-chrome-192x192.png" type="image/x-icon"> 
+    <style> 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
 th, td {
-    padding: 10px; 
-    text-align: center; 
-    border: 1px solid #ddd; 
+  padding: 10px;
+  border: 1px solid #ffffff;
+  text-align: center;
 }
-th { color: #DAA520; 
-    font-weight: bold;
-    font-style: italic;
-    background-color: #D2691E; 
-    color: white; 
-    
-}
-a {
-    color: #8A2BE2; 
-    text-decoration: none; 
-}
-a:hover {
-    text-decoration: underline;
-} 
 
-td:nth-child(2) { 
-    color: #00063a; 
-    font-weight: bold;
-    font-style: italic; } 
+th {
+  background-color: #d97735; 
+  color: #ffffff;
+  font-weight: bold;
+}
+
+
+td {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+td img {
+  width: 150px;
+  height: auto;
+}
+
+
+a {
+  color: #6b24d6; 
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 600px) {
+  table {
+    width: 100%;
+  }
+
+  th, td {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+ 
+  td img {
+    width: 100px; 
+    height: auto;
+  }
+
+  th, td {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+ 
+  table, th, td {
+    border-collapse: collapse;
+  }
+}
     </style> 
     <!--td:nth-child(2): Aplica o estilo à segunda célula (td) em cada linha, onde estão os nomes dos filmes-->
 </head>
